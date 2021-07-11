@@ -1,4 +1,3 @@
-//making changes
 let allFilters=document.querySelectorAll(".filters");
 let ticketContainer=document.querySelector(".ticket-container");
 let openModal=document.querySelector(".open-modal");
