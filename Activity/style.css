@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    }
+body{
+    
+    }
+    .header{
+        background-color: aquamarine;
+        margin: auto;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .ticket-filters{
+    
+    justify-content: space-evenly;
+    
+    display: flex;
+    
+    height: 60%;
+    
+    width: 30%;
+    
+    border-radius: 7px;
+    
+    background-color: gray;
+    
+    align-content: center;
+    }
+    .filters{
+        height: 52%;
+        width: 18%;
+        align-self: center;
+        border-radius: 7px;
+        opacity: 0.7;
+        transition: transform 0.4s;
+    }
+    .filters:hover{
+        opacity: 1;
+        transform: scale(1.3);
+    }
+    .red{background-color: red;
+    }
+    .green{
+    
+    background-color: green;
+    }
+    .blue{
+    
+    background-color: blue;
+    }
+    .yellow{background-color: yellow;}
+    .ticket-actions{
+        justify-content: space-evenly;
+        display: flex;
+        height: 60%;
+        width: 11%;
+        border-radius: 7px;
+        font-size: xx-large;
+        background-color: gray;
+        align-items: center;
+    }
+    .ticket-actions div{
+        opacity: 0.7;
+        transition: transform 0.4s;
+    }
+    .ticket-actions div:hover{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    .ticket-container{
+        height: calc(100vh - 80px);
+    }
+    .ticket-modal{
+
+height: 300px;
+
+width: 300px;
+
+position: absolute;
+
+left: calc(50vw - 150px);
+
+top: 20%;
+
+display: flex;
+}
+    .ticket-text{
+
+background-color: aquamarine;
+
+width: 70%;
+
+height: 100%;
+
+outline: none;
+
+padding: 10px;
+
+font-size: 22px;
+
+overflow: auto;
+}
+.tickets-filter{
+        
+height: 100%;
+        
+width: 30%;
+        
+background-color: gray;
+        
+display: flex;
+        
+flex-direction: column;
+        
+justify-content: space-evenly;
+        
+align-items: center;
+    }
+    .ticket-filter{
+
+width: 70%;
+
+height: 12%;
+
+border-radius: 10px;
+
+opacity: 0.5;
+transition: transform 0.4s;
+}
+.selected-filter{
+    
+opacity: 1;
+    
+border: 2px solid white;
+
+}
+.ticket-filter:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
